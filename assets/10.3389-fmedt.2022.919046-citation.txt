@@ -1,0 +1,10 @@
+@article{10.3389/fmedt.2022.919046,
+author={Ahmed, Sabeen and Dera, Dimah and Hassan, Saud Ul and Bouaynaya, Nidhal and Rasool, Ghulam},
+title={Failure Detection in Deep Neural Networks for Medical Imaging},
+journal={Frontiers in Medical Technology},
+volume={4},
+year={2022},
+url={https://www.frontiersin.org/articles/10.3389/fmedt.2022.919046},
+doi={10.3389/fmedt.2022.919046},
+issn={2673-3129}
+}

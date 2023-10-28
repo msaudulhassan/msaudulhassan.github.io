@@ -1,0 +1,138 @@
+/* content -- intro */
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#aboutme {
+    flex: 1;
+}
+
+#name {
+    font-size: 2.5rem;
+}
+
+#location {
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(77, 77, 77);
+}
+
+#whoami {
+    flex: 1; 
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#contact #email-icon {
+    font-size: 20px;
+    color: rgb(72, 72, 72);
+}
+
+#contact #my-email {
+    display: block;
+    width: 240px;
+    margin-top: -18px;
+    margin-left: 30px;
+}
+
+#affiliations {
+    display: flex;
+    align-items: center;
+    height: 72px; 
+}
+
+#affiliations img {
+    margin: 0 5px;
+    width: 72px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.profile-image-container {
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto; 
+    margin-right: 0; 
+    margin-left: 20px;
+}
+
+.profile-image-container .social-icons {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.profile-image-container .icon {
+    font-size: 30px;
+    color: rgb(72, 72, 72);
+    margin-left: 2px;
+}
+
+.profile-image-container .icon:hover {
+    color: rgb(39, 39, 39);
+}
+
+
+#profile-image-container-1{
+    display: none;
+}
+
+#profile-image-container-1 .profile-image {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#profile-image-container-1 .social-icons {
+    display: block;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-bottom: 20px;
+}
+
+/* content -- publications */
+#main-publications {
+    padding-top: 20px;
+}
+
+
+@media (max-width: 610px) {
+    #intro {
+        display: block;
+    }
+
+    #aboutme {
+        flex: 0;
+    }
+
+    #name, #location {
+        text-align: center;
+    }
+
+    #whoami {
+        text-align: left;
+        flex: 0;
+    }
+
+    #profile-image-container-1 {
+        display: block;
+    }
+
+    #profile-image-container-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 314px) {
+    #name {
+        padding-left: 10px;
+        padding-right: 9px;
+    }
+}

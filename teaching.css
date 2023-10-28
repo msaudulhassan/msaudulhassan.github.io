@@ -1,0 +1,38 @@
+#teaching {
+    padding-top: 20px;
+}
+
+.teaching-entry {
+    margin-bottom: 30px;
+}
+
+.teaching-subject {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.teaching-school {
+    margin-top: -10px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.teaching-desc {
+    margin-top: -7px;
+    margin-left: 10px;
+}
+
+.teaching-desc::before {
+    content: "About: ";
+    font-weight: 400;
+}
+
+.teaching-terms {
+    margin-top: -7px;
+    margin-left: 10px;
+}
+
+.teaching-terms::before {
+    content: "Semester(s): ";
+    font-weight: 400;
+}
