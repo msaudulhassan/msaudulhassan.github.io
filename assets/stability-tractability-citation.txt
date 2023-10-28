@@ -1,0 +1,7 @@
+@inproceedings{saud/stability-tractability,
+title={Tractability of Stability-Constrained Trajectory Optimization},
+author={Saud Ul Hassan, Muhammad and Hubicki, Christian},
+booktitle={Dynamic Walking 2021},
+year={2021},
+url={https://static1.squarespace.com/static/6005cfec3753c24df2490e0a/t/60e35ff6b2d10014a2a49e1a/1625513975599/Muhammad+Saud+Ul+Hassan+-+SaudUlHassan_Muhammad_DW2021.pdf}
+}
