@@ -30,3 +30,6 @@ Add your content in `<div id=content> </div>`. You can use `page-title`, `page-l
 
 ### Add Schema.org Markup
 See [schema.org](https://schema.org) for details.
+
+### Verfiy
+Use [Google's Structured Data Test](https://developers.google.com/search/docs/appearance/structured-data) to verify that your schema markup is being understood by crawlers.
