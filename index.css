@@ -130,7 +130,7 @@
         flex: 0;
     }
 
-    #name, #location {
+    #name, #location, #quick-affiliations {
         text-align: center;
     }
 
