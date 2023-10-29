@@ -61,10 +61,12 @@
     display: flex;
     align-items: center;
     height: 96px; 
+    max-width: 285px;
+    margin: auto;
 }
 
 #affiliations img {
-    margin: 0 4px;
+    margin: 0 5px;
     width: 64px;
     height: auto;
 }
@@ -121,7 +123,7 @@
 }
 
 
-@media (max-width: 610px) {
+@media (max-width: 700px) {
     #intro {
         display: block;
     }
