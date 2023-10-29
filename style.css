@@ -152,6 +152,7 @@ footer {
 footer p {
     color: #555555;
     font-size: 12px;
+    text-align: center;
 }
 
 footer a {

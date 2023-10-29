@@ -20,10 +20,29 @@
     color: rgb(77, 77, 77);
 }
 
+#quick-affiliations {
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(77, 77, 77);
+}
+
 #whoami {
     flex: 1; 
     font-size: 1rem;
     line-height: 1.5;
+}
+
+.whoami-highlight {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+
+#whoami br {
+    display: block;
+    margin-top: 5px;
 }
 
 #contact #email-icon {
@@ -41,14 +60,13 @@
 #affiliations {
     display: flex;
     align-items: center;
-    height: 72px; 
+    height: 96px; 
 }
 
 #affiliations img {
-    margin: 0 5px;
-    width: 72px;
+    margin: 0 4px;
+    width: 64px;
     height: auto;
-    opacity: 0.8;
 }
 
 .profile-image-container {
