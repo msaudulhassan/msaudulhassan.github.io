@@ -35,14 +35,18 @@
 .whoami-highlight {
     font-family: Consolas,"courier new";
     color: crimson;
-    background-color: #f1f1f1;
     padding: 2px;
     font-size: 105%;
+    font-weight: 600;
 }
 
-#whoami br {
+#whoami p {
     display: block;
-    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+#contact {
+    margin-top: 30px;
 }
 
 #contact #email-icon {
