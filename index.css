@@ -26,10 +26,21 @@
     color: rgb(77, 77, 77);
 }
 
+#quick-affiliations br {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quick-affiliations-place {
+    font-weight: bold;
+    font-style: italic;
+}
+
 #whoami {
     flex: 1; 
     font-size: 1rem;
     line-height: 1.5;
+    margin-top: -10px;
 }
 
 .whoami-highlight {
@@ -143,6 +154,7 @@
     #whoami {
         text-align: left;
         flex: 0;
+        margin-top: 0px;
     }
 
     #profile-image-container-1 {
