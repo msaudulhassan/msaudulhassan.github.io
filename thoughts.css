@@ -1,0 +1,15 @@
+.thought-entry {
+    line-height: 1.3;
+}
+
+.thought-heading {
+    font-weight: bold;
+}
+
+.thought-heading::after {
+    content: ":";
+}
+
+.thought-desc {
+
+}
