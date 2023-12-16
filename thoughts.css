@@ -1,15 +1,34 @@
 .thought-entry {
     line-height: 1.3;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 5px;
 }
 
-.thought-heading {
-    font-weight: bold;
+.thought-entry:hover {
+    background-color: rgb(225, 225, 225);
 }
 
-.thought-heading::after {
-    content: ":";
+.thought-subject {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .thought-desc {
+    margin-top: -15px;
+}
 
+.thought-image {
+    float: left;
+    margin-right: 20px;
+    width: 72px;
+}
+
+.thought-info {
 }
