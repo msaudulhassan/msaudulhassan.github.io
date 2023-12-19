@@ -13,6 +13,8 @@
 
 .thought-entry:hover {
     background-color: rgb(225, 225, 225);
+    color: inherit;
+    text-decoration: none;
 }
 
 .thought-subject {
