@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="citation_title" content="Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives">
+    <meta name="citation_abstract" content="Open-loop stable limit cycles are foundational to the dynamics of legged robots. They impart a self-stabilizing character to the robot's gait, thus alleviating the need for compute-heavy feedback-based gait correction. This paper proposes a general approach to rapidly generate limit cycles with explicit stability constraints for a given dynamical system. In particular, we pose the problem of open-loop limit cycle stability as a single-stage constrained-optimization problem (COP), and use Direct Collocation to transcribe it into a nonlinear program (NLP) with closed-form expressions for constraints, objectives, and their gradients. The COP formulations of stability are developed based (1) on the spectral radius of a discrete return map, and (2) on the spectral radius of the system's monodromy matrix, where the spectral radius is bounded using different constraint-satisfaction formulations of the eigenvalue problem. We compare the performance and solution qualities of each approach, but specifically highlight the Schur decomposition of the monodromy matrix as a formulation which boasts wider applicability through weaker assumptions and attractive numerical convergence properties. Moreover, we present results from our experiments on a spring-loaded inverted pendulum model of a robot, where our method generated actuation trajectories for open-loop stable hopping in under 2 seconds (on the Intel Core i7-6700K), and produced energy-minimizing actuation trajectories even under tight stability constraints.">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/page-style.css">
+    <title>Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G9JP0LGHNJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G9JP0LGHNJ');
+</script>
+<body>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="/" id="nav-bar-home" class="tab">about</a></li>
+            <li><a href="/#main-publications" class="tab selected-tab">publications</a></li>
+            <li><a href="/projects.html" class="tab">projects</a></li>
+            <li><a href="/teaching.html" class="tab">teaching</a></li>
+            <li><a href="/thoughts.html" class="tab">thoughts</a></li>
+            <li><a href="/assets/cv.pdf" target="_blank" class="tab">cv</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h2 class="page-title">Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives</h2>
+        <div class="page-links">
+            <a href="https://arxiv.org/abs/2312.10647" target="_blank">[pdf]</a> 
+            <a href="/assets/hassan2023singlestage.txt" target="_blank">[bibtex]</a> 
+        </div>
+        <p class="page-authors"><span class="me">Muhammad Saud Ul Hassan</span>; Christian Hubicki</p>
+        <img src="imgs/open_loop_stability.jpg" class="gallery-image" style="max-width: 512px; border: none; text-align: center;" alt="Overview of our appraoch for generating open-loop stable dynamic gaits in robots.">
+        <p class="page-abstract">Open-loop stable limit cycles are foundational to the dynamics of legged robots. They impart a self-stabilizing character to the robot's gait, thus alleviating the need for compute-heavy feedback-based gait correction. This paper proposes a general approach to rapidly generate limit cycles with explicit stability constraints for a given dynamical system. In particular, we pose the problem of open-loop limit cycle stability as a single-stage constrained-optimization problem (COP), and use Direct Collocation to transcribe it into a nonlinear program (NLP) with closed-form expressions for constraints, objectives, and their gradients. The COP formulations of stability are developed based (1) on the spectral radius of a discrete return map, and (2) on the spectral radius of the system's monodromy matrix, where the spectral radius is bounded using different constraint-satisfaction formulations of the eigenvalue problem. We compare the performance and solution qualities of each approach, but specifically highlight the Schur decomposition of the monodromy matrix as a formulation which boasts wider applicability through weaker assumptions and attractive numerical convergence properties. Moreover, we present results from our experiments on a spring-loaded inverted pendulum model of a robot, where our method generated actuation trajectories for open-loop stable hopping in under 2 seconds (on the Intel Core i7-6700K), and produced energy-minimizing actuation trajectories even under tight stability constraints.</p>
+    </div>
+
+    <footer>
+        <p id="last-modified-date"></p>
+        <p>&copy; Copyright 2023 Muhammad Saud Ul Hassan. Hosted by <a href="https://pages.github.com/">GitHub Pages.</a></p>
+    </footer>
+
+    <script src="/last_modified.js"></script>
+</body>
+</html>

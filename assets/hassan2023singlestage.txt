@@ -1,0 +1,8 @@
+@misc{hassan2023singlestage,
+      title={Single-Stage Optimization of Open-loop Stable Limit Cycles with Smooth, Symbolic Derivatives}, 
+      author={Muhammad Saud Ul Hassan and Christian Hubicki},
+      year={2023},
+      eprint={2312.10647},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
