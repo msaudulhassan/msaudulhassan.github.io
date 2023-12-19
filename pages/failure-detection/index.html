@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="citation_title" content="Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives">
+    <meta name="citation_abstract" content="Open-loop stable limit cycles are foundational to the dynamics of legged robots. They impart a self-stabilizing character to the robot's gait, thus alleviating the need for compute-heavy feedback-based gait correction. This paper proposes a general approach to rapidly generate limit cycles with explicit stability constraints for a given dynamical system. In particular, we pose the problem of open-loop limit cycle stability as a single-stage constrained-optimization problem (COP), and use Direct Collocation to transcribe it into a nonlinear program (NLP) with closed-form expressions for constraints, objectives, and their gradients. The COP formulations of stability are developed based (1) on the spectral radius of a discrete return map, and (2) on the spectral radius of the system's monodromy matrix, where the spectral radius is bounded using different constraint-satisfaction formulations of the eigenvalue problem. We compare the performance and solution qualities of each approach, but specifically highlight the Schur decomposition of the monodromy matrix as a formulation which boasts wider applicability through weaker assumptions and attractive numerical convergence properties. Moreover, we present results from our experiments on a spring-loaded inverted pendulum model of a robot, where our method generated actuation trajectories for open-loop stable hopping in under 2 seconds (on the Intel Core i7-6700K), and produced energy-minimizing actuation trajectories even under tight stability constraints.">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/page-style.css">
+    <title>Optimization of Open-loop Stable Limit Cycles with Direct Collocation and Smooth, Symbolic Derivatives</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G9JP0LGHNJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G9JP0LGHNJ');
+</script>
+<body>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="/" id="nav-bar-home" class="tab">about</a></li>
+            <li><a href="/#main-publications" class="tab selected-tab">publications</a></li>
+            <li><a href="/projects.html" class="tab">projects</a></li>
+            <li><a href="/teaching.html" class="tab">teaching</a></li>
+            <li><a href="/thoughts.html" class="tab">thoughts</a></li>
+            <li><a href="/assets/cv.pdf" target="_blank" class="tab">cv</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h2 class="page-title">Failure Detection in Deep Neural Networks for Medical Imaging</h2>
+        <div class="page-links">
+            <a href="https://www.frontiersin.org/articles/10.3389/fmedt.2022.919046/pdf?isPublishedV2=False" target="_blank">[pdf]</a> 
+            <a href="/assets/10.3389-fmedt.2022.919046-citation.txt" target="_blank">[bibtex]</a> 
+        </div>
+        <p class="page-authors">Sabeen Ahmed; Dimah Dera; <span class="me">Muhammad Saud Ul Hassan</span>; Nidhal Bouaynaya; Ghulam Rasool</p>
+        <img src="imgs/learned_overview.jpg" class="gallery-image" style="max-width: 512px; border: none; text-align: center;" alt="Overview of our appraoch for generating open-loop stable dynamic gaits in robots.">
+        <p class="page-abstract">Deep neural networks (DNNs) have started to find their role in the modern healthcare system. DNNs are being developed for diagnosis, prognosis, treatment planning, and outcome prediction for various diseases. With the increasing number of applications of DNNs in modern healthcare, their trustworthiness and reliability are becoming increasingly important. An essential aspect of trustworthiness is detecting the performance degradation and failure of deployed DNNs in medical settings. The softmax output values produced by DNNs are not a calibrated measure of model confidence. Softmax probability numbers are generally higher than the actual model confidence. The model confidence-accuracy gap further increases for wrong predictions and noisy inputs. We employ recently proposed Bayesian deep neural networks (BDNNs) to learn uncertainty in the model parameters. These models simultaneously output the predictions and a measure of confidence in the predictions. By testing these models under various noisy conditions, we show that the (learned) predictive confidence is well calibrated. We use these reliable confidence values for monitoring performance degradation and failure detection in DNNs. We propose two different failure detection methods. In the first method, we define a fixed threshold value based on the behavior of the predictive confidence with changing signal-to-noise ratio (SNR) of the test dataset. The second method learns the threshold value with a neural network. The proposed failure detection mechanisms seamlessly abstain from making decisions when the confidence of the BDNN is below the defined threshold and hold the decision for manual review. Resultantly, the accuracy of the models improves on the unseen test samples. We tested our proposed approach on three medical imaging datasets: PathMNIST, DermaMNIST, and OrganAMNIST, under different levels and types of noise. An increase in the noise of the test images increases the number of abstained samples. BDNNs are inherently robust and show more than 10% accuracy improvement with the proposed failure detection methods. The increased number of abstained samples or an abrupt increase in the predictive variance indicates model performance degradation or possible failure. Our work has the potential to improve the trustworthiness of DNNs and enhance user confidence in the model predictions.</p>
+    </div>
+
+    <footer>
+        <p id="last-modified-date"></p>
+        <p>&copy; Copyright 2023 Muhammad Saud Ul Hassan. Hosted by <a href="https://pages.github.com/">GitHub Pages.</a></p>
+    </footer>
+
+    <script src="/last_modified.js"></script>
+</body>
+</html>
